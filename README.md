@@ -15,13 +15,19 @@ This repo is a growing set of skills that plug into various agent coding environ
 
 ## Installation Examples
 
+### Using npx skills
+
+```bash
+npx skills add https://github.com/unkistudio/agent-skills
+```
+
+This will install all skills from this repo for any supported agent tool.
+
 ### OpenCode
 
-1. Run `npx skills add https://github.com/unkistudio/agent-skills` to add all skills from this repo.
+1. Copy skill files into `~/.config/opencode/skills/` (global) or `.opencode/skills/` in your project root (project-local).
 2. Restart the session.
 3. Verify with `/skills`.
-
-Alternatively, copy skill files into `~/.config/opencode/skills/` (global) or `.opencode/skills/` in your project root (project-local).
 
 ### Claude Code
 
